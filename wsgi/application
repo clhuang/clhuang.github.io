@@ -419,6 +419,9 @@ var myDoughnut = new Chart(document.getElementById("latex").getContext("2d")).Do
 </html>
 '''
 
+    with open('index.html') as indexhtml:
+        response_body = indexhtml.read()
+
     status = '200 OK'
     response_headers = [('Content-Type', ctype), ('Content-Length', str(len(response_body)))]
     #
