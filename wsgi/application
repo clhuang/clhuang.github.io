@@ -23,7 +23,7 @@ def application(environ, start_response):
         response_body = '\n'.join(response_body)
     else:
         ctype = 'text/html'
-        with open('app-root/repo/wsgi/index.html') as indexhtml:
+        with open('app-root/repo/data/index.html') as indexhtml:
             response_body = indexhtml.read()
 
     status = '200 OK'
