@@ -51,6 +51,7 @@
                     <ul id="nav" class="nav">
                         <li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
                         <li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+                        <li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
                         <li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
                     </ul><!--/ uL#nav -->
                 </div><!-- /.dropdown -->
@@ -84,7 +85,7 @@
                 <h5>ABOUT</h5>
             </div>
             <div class="col-lg-6">
-                <p>I'm a software developer and computational scientist. I'm interested in many fields of computer science, especially robotics and artificial intelligence, as well as electrical and computer engineering. I also have skills in other fields like web development and web design.</p>
+                <p>Software developer, electrical engineer, and computational scientist. I'm interested in many fields of computer science, especially robotics and artificial intelligence, as well as electrical and computer engineering. I also have skills in other fields like web development and web design.</p>
             </div>
             <div class="col-lg-3">
                 <!--<p class="sm"><a href="#"><i class="icon-file"></i></a>DOWNLOAD PDF</p>-->
@@ -106,6 +107,9 @@
             <p><span class="t">Postsecondary Education</span><br/>
             Massachusetts Institute of Technology<br/>
             Course 6.2&mdash;Electrical Engineering and Computer Science
+            <br/>
+            <span class="more" style="font-style: oblique">Relevant Coursework</span><br/>
+            Theory of Computation, Design and Analysis of Algorithms, Computation Structures, Digital &amp; Computational Photography, Intro to EECS<br/>
             </p>
         </div>
         <div class="col-lg-3">
@@ -113,10 +117,13 @@
             <span class="imp">IN PROGRESS</span>
             </p>
         </div>
-        
+
         <div class="col-lg-6 col-lg-offset-3">
             <p><span class="t">Secondary Education</span><br/>
-            Gunn High School (GPA: 4.38)<br/>
+            Gunn High School (GPA: 4.38)
+            <br/>
+            <span class="more" style="font-style: oblique">Relevant Coursework</span><br/>
+            AP Computer Science, AP Economics, AP Physics C, BC Calculus, Engineering Technology<br/>
             </p>
         </div>
         <div class="col-lg-3">
@@ -124,11 +131,6 @@
             </p>
         </div>
 
-        <div class="col-lg-6 col-lg-offset-3">
-            <p><span class="t">Relevant Coursework</span><br/>
-            AP Computer Science, AP Economics, AP Physics C, BC Calculus, Engineering Technology<br/>
-            </p>
-        </div>
     </div><!--/.row -->
     <br>
     <hr>
@@ -142,11 +144,21 @@
         <div class="col-lg-2 col-lg-offset-1">
             <h5>WORK</h5>
         </div>
-    <div class="col-lg-6">
-        <p><span class="t">Test Engineer</span><br/>
+        <div class="col-lg-6">
+            <p><span class="t">Undergraudate Researcher</span><br/>
+            MIT Spoken Lanugage Lab<br/>
+            <span class="more">Helped develop Nutrition System, which displays and tracks nutrition information from a spoken meal description<br/>
+                Improved semantic labelling of foods and food properties using properties of word vectors as features</span></p>
+        </div>
+        <div class="col-lg-3">
+            <p class="sm">JAN 2015 - CURRENT</p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><span class="t">Test Engineer</span><br/>
             Sentient Energy<br/>
             <span class="more">Full-time during summer<br/>
-            Developed and prototyped automated testing solutions for various components of the MM3 energy monitor</span></p>
+                Developed and prototyped automated testing solutions for various components of the MM3 energy monitor</span></p>
         </div>
         <div class="col-lg-3">
             <p class="sm">MAY 2014 - AUGUST 2014</p>
@@ -157,7 +169,7 @@
             Lockheed Martin Solar Astrophysics Lab<br/>
             <span class="more">Full-time during summer<br/>
                 Created utility <a href="https://github.com/clhuang/br_ioni">br_ioni</a> to generate and analyze solar simulations;
-                analyzed simulation output and empirical data to improve simulation methodologies&mdash;submitted
+                compared simulation output and empirical data to improve simulation methodologies&mdash;submitted
                 findings to Intel Science Talent Search
             </span>
             </p>
@@ -273,120 +285,66 @@
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>SKILLS</h5>
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="Python" height="130" width="130"></canvas>
-                <p>Python</p>
-                <br>
-                <script>
-var doughnutData = [
-{
-value: 85,
-           color:"#1abc9c"
-},
-{
-value : 15,
-        color : "#ecf0f1"
-}
-];
-var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="Java" height="130" width="130"></canvas>
-                <p>Java</p>
-                <br>
-                <script>
-var doughnutData = [
-{
-value: 75,
-           color:"#1abc9c"
-},
-{
-value : 25,
-        color : "#ecf0f1"
-}
-];
-var myDoughnut = new Chart(document.getElementById("Java").getContext("2d")).Doughnut(doughnutData);
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="CUDA" height="130" width="130"></canvas>
-                <p>CUDA</p>
-                <br>
-                <script>
-var doughnutData = [
-{
-value: 70,
-           color:"#1abc9c"
-},
-{
-value : 30,
-        color : "#ecf0f1"
-}
-];
-var myDoughnut = new Chart(document.getElementById("CUDA").getContext("2d")).Doughnut(doughnutData);
-                </script>
-            </div>
-
-            <div class="col-lg-3 col-lg-offset-3 centered">
-                <canvas id="html" height="130" width="130"></canvas>
-                <p>HTML/CSS</p>
-                <br>
-                <script>
-var doughnutData = [
-{
-value: 70,
-           color:"#1abc9c"
-},
-{
-value : 30,
-        color : "#ecf0f1"
-}
-];
-var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="clang" height="130" width="130"></canvas>
-                <p>C</p>
-                <br>
-                <script>
-var doughnutData = [
-{
-value: 75,
-           color:"#1abc9c"
-},
-{
-value : 25,
-        color : "#ecf0f1"
-}
-];
-var myDoughnut = new Chart(document.getElementById("clang").getContext("2d")).Doughnut(doughnutData);
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="latex" height="130" width="130"></canvas>
-                <p>LaTeX</p>
-                <br>
-                <script>
-var doughnutData = [
-{
-value: 60,
-           color:"#1abc9c"
-},
-{
-value : 40,
-        color : "#ecf0f1"
-}
-];
-var myDoughnut = new Chart(document.getElementById("latex").getContext("2d")).Doughnut(doughnutData);
-                </script>
+            <div class="col-lg-9 centered">
+                <p><span style="font-weight: bold">Programming</span><br/>
+                Python, Java, CUDA, C, C++, LaTeX, Haskell, Bash, ROS, HTML/CSS<br/>
+                Natural Language Processing, Robotics, Data Analysis, GUI/Web Design</p>
+                <p><span style="font-weight: bold">Engineering</span><br/>
+                EAGLE, Circuit Simulation, Machining, Solidworks, Inventor </p>
             </div>
 
         </div><!--/.row -->
         <br>
     </div><!--/.container -->
 </div><!--/ #skillswrap -->
+
+<section id="work" name="work"></section>
+<!--PORTFOLIO DESCRIPTION -->
+<div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+            <h5>PORTFOLIO</h5>
+        </div>
+        <div class="col-lg-6">
+            <p><img class="img-responsive" src="assets/img/sls-nutrition.png" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+            <p style="font-weight: bold;"><a href="https://ssls.csail.mit.edu/Nutrition/">Nutrition System</a></p>
+            <p><more>MIT Spoken Language Systems' Nutrition System listens to a user's spoken meal description and displays the relevant nutritional information, making it easier for them to track their dietary intake. My work focused on improving the accuracy of the semantic labeling of foods, descriptions, quantities, and brands, using word-vector-sourced data as inputs to a CRF.<br/><br/>
+            </p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><img class="img-responsive" src="assets/img/br_ioni.png" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+            <p style="font-weight: bold;"><a href="https://github.com/clhuang/br_ioni">br_ioni</a></p>
+            <p><more>br_ioni is an application for simulating, and visualizing, the emissions in a small slice of the sun, using CUDA to speed up computation of intensity and spectral lines. Displays information about the intensity, doppler shifts, line width, peaks, etc. of bifrost simulations.<br/><br/>
+            </p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><img class="img-responsive" src="assets/img/grtrobot.jpg" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+            <p style="font-weight: bold;"><a href="http://gunnrobotics.com">Gunn Robotics</a> / <a href="https://github.com/grt192/grtpyframework">GRTPyFramework</a></p>
+            <p><more>Served on the Controls group of the Gunn Robotics Team for three years, and led it for two. Also led the development of GRTPyFramework, a Python-based event-driven robot framework.<br/><br/>
+            </p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><img class="img-responsive" src="assets/img/nlp.png" alt=""></p>
+        </div>
+        <div class="col-lg-3">
+            <p style="font-weight: bold;"><a href="https://github.com/clhuang/spinach">SPinACh</a></p>
+            <p><more>SPinACh is a system for semantic classification in sentences; specifically for determining the positions and roles of sentences' predicates and arguments. Won the ACM Special Award (2nd place) in the 2013 Synopsys Science Fair.<br/><br/>
+            </p>
+        </div>
+
+    </div><!--/.row -->
+    <br>
+    <br>
+</div><!--/.container -->
 
 <section id="contact"></section>
 <!--FOOTER DESCRIPTION -->
