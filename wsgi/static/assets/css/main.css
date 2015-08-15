@@ -263,7 +263,11 @@ By default, top navigation bar uses "fixed" position
 
 .desc .t {
     color: #34495e;
-    font-weight: 700;
+    font-weight: bold;
+}
+
+.desc .tt {
+    font-weight: 400;
 }
 
 .desc .imp {
